@@ -24,7 +24,7 @@ POST /api/auth/login
 POST /api/resume/enrich
 Authorization: <token>
 {
-    "raw_text": "Resume content..."
+    "pdf_url": "Resume content..."
 }
 ```
 
@@ -57,5 +57,4 @@ GEMINI_API_KEY=your_gemini_api_key
 npm start
 ```
 
-## Author
-Aarushi Bhatia
+
